@@ -207,6 +207,9 @@ Banner Style Start
 .smart-header {
   margin-bottom: 2.5em;
 }
+.smart-header-2 {
+  margin-bottom: 2.5em;
+}
 .features-caption {
   margin-bottom: 25px;
   padding-right: 30px;
@@ -219,6 +222,23 @@ Banner Style Start
   font-family: "Montserrat", sans-serif;
 }
 .smart-header h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 110px;
+  background: #ff569c;
+}
+.smart-header-2 h1 {
+  font-weight: 400;
+  color: #ffffff;
+  position: relative;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.smart-header-2 h1:before {
   position: absolute;
   left: 0;
   bottom: 0;
