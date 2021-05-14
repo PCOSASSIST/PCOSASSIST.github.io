@@ -155,6 +155,10 @@ Banner Style Start
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+.download-btn:hover {
+  background-color: #3d62dc;
+}
+
 .banner-btn h4 {
   text-align: left;
   font-family: "Montserrat", sans-serif;
@@ -166,7 +170,7 @@ Banner Style Start
   color: #ffffff;
 }
 .banner-btn i {
-  color: #ff569c;
+  color: #3ddc84;
   font-size: 30px;
   margin-right: 10px;
   float: left;
