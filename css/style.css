@@ -11,6 +11,47 @@ Primary use:	App Landing Page
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
 /*---------------General style---------------*/
+.collapsible {
+  background-color: #eee;
+  color: rgb(56, 55, 55);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #5f5d5d;
+}
+.content p {
+  margin-top: 10px;
+  color: #ffffff;
+}
 a:hover,
 a:focus {
   text-decoration: none;
@@ -254,7 +295,7 @@ Banner Style Start
 }
 .features-caption span {
   font-size: 3.5em;
-  color: #ff569c;
+  color: #ff56be;
   margin-bottom: 10px;
 }
 .features-caption h3 {
